@@ -4,7 +4,6 @@
 const nuevaString = "soy cami";
 
 // Crea una variable numérica, puede ser cualquier número:
-<<<<<<< HEAD
 const nuevoNum = 1;
 
 // Crea una variable booleana:
@@ -42,7 +41,7 @@ return x + y;
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-return y - x;
+  return x - y
 }
 
 function multiplica(x, y) {
@@ -94,7 +93,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-if _(num >50){
+if(num >50){
   return true
 }else{
   return false
@@ -133,7 +132,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-return Maath.pow (num,2):
+return Math.pow(num,2)
 }
 
 function elevarAlCubo(num) {
@@ -151,7 +150,7 @@ return Math.pow(num,exponent);
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-return Math.roun(num)
+return Math.round(num)
 }
 
 function redondearHaciaArriba(num) {
@@ -173,7 +172,7 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
 if (numero>0){
 return "Es positivo"
-}else si (numero<0) {
+}else if(numero<0){
   return "Es negativo"
 }else{
   return false
@@ -226,7 +225,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-return euro * 1,20
+return euro * 1.20
 }
 
 
@@ -241,7 +240,7 @@ if (letra.length > 1){
 }else if (letra=== "a"|| letra === "e" || letra === "i" || letra === "o" || letra === "u"){
 return "Es vocal"
 }else{
-  return false
+  return "Dato incorrecto"
 }
 }
 
