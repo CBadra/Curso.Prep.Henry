@@ -11,8 +11,9 @@ img{
   height: 600px;
   background: navajowhite;
   padding: 50px;
-  border: 4mm ridge rgba(211, 220, 50, .6)
-}
+  border: 4mm ridge rgba(211, 220, 50, .6);
+  display:inline-block;
+} //displayinline lo suma aaa la propiedad textalig que es texto alineado
 
 #spanId {
   font-size: 18px;
@@ -21,8 +22,13 @@ img{
 
 body {
   heigh:500px;
-  background-image: url("https://i.pinimg.com/originals/7d/9c/37/7d9c379a927ea5166b328bd2db8f0e50.jpg");
+  background-image: url("https://s2.best-wallpaper.net/wallpaper/iphone/1911/Night-mountains-trees-bend-road-light-lines-starry_iphone_320x480.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center center;
-}
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+} //backgroun habla de propiedades de fondo
+//-webkit-box-sizing y etc los hace compatibles con otras pantallas y navegadores manteniendo su estructura  
